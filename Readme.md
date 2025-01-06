@@ -9,11 +9,11 @@ This project demonstrates how to integrate Pinecone, a vector database, with Goo
    - Inserts embedding vectors into a Pinecone index.
    - Generates embeddings for a given content using the Google Generative AI text-embedding model.
 
-2. **`Query-data.js`**  
+2. **`search.js`**  
    - Queries the Pinecone index using a vector generated from Google Generative AI embeddings.
    - Retrieves the top K matching vectors with their metadata.
 
-3. **`Describe-index.js`**  
+3. **`Find.js`**  
    - Retrieves and prints information about the Pinecone index, including namespace details and statistics.
 
 ---
@@ -49,7 +49,7 @@ This project demonstrates how to integrate Pinecone, a vector database, with Goo
    ```plaintext
    /project-folder
    ├── Insert-data.js
-   ├── Query-data.js
-   ├── Describe-index.js
+   ├── search.js
+   ├── Find.js
    ├── README.md
    ├── .env
